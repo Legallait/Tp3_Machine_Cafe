@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Machine à café</title>
+    <script src="app.js" type="module" defer></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<H2 class="titre">La Machine à Café</H2>
+
+<div id="controle">
+
+    <button id="acheter" name = "action">acheter</button>
+    <button id="remplir" name = "action">remplir</button>
+    <button id="prendre" name = "action">prendre</button>
+
+    <button id="expresso" name ="boisson">expresso</button>
+    <button id="capuccino" name ="boisson">capuccino</button>
+    <button id="latte" name ="boisson">latte</button>
+
+    <input type="text" id="lait" placeholder="lait" name="input">
+    <input type="text" id="grain" placeholder="grain" name="input">
+    <input type="text" id="eau" placeholder="eau" name="input">
+    <input type="text" id="tasse" placeholder="tasse" name="input">
+
+    <button id="valider_remplir">valider</button>
+    <button id="valider_prendre">valider</button>
+    <button id="retour">retour</button>
+
+</div>
+<div class="container" id ="machine">
+    <div class="coffee-header">
+        <div class="coffee-header__buttons coffee-header__button-one"></div>
+        <div class="coffee-header__buttons coffee-header__button-two"></div>
+        <div class="coffee-header__display"></div>
+        <div class="coffee-header__details"></div>
+    </div>
+    <div class="coffee-medium">
+        <div class="coffe-medium__exit"></div>
+        <div class="coffee-medium__arm"></div>
+        <div class="coffee-medium__liquid"></div>
+        <div class="coffee-medium__smoke coffee-medium__smoke-one"></div>
+        <div class="coffee-medium__smoke coffee-medium__smoke-two"></div>
+        <div class="coffee-medium__smoke coffee-medium__smoke-three"></div>
+        <div class="coffee-medium__smoke coffee-medium__smoke-for"></div>
+        <div class="coffee-medium__cup"></div>
+    </div>
+    <div class="coffee-footer"></div>
+</div>
+
+</body>
+</html>
